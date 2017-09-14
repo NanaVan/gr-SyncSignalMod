@@ -3,9 +3,13 @@ Test for phase shift for Comb signal step by step
 
 ## Block for phase rotator
 code: /python/PhaseRotator_py_cc.py
+
 ...input/output: complex/complex
+
 ...setter function: set_phaseIncrease(phaseChange)
+
 ...work function: multiply exp(ij * phaseChange)
+
 test: /phython/qa_PhaseRotator_py_cc.py
 
 ## Steps for test
